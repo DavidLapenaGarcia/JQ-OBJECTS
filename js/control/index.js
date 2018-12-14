@@ -1,7 +1,7 @@
 
 
 $( document ).ready(function() {
-    /*  //Download jq format currency dude
+    /*  //Download jq format currency dude, call it on index and save it on vendors. nice!
     $("mtFildset").on("blur",".currency", function(){
         $(".currency").formatCurrency({
             region            : 'es-ES',
