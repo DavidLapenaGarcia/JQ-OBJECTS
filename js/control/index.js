@@ -1,7 +1,21 @@
 
 
 $(document).ready(function(){
-
+    /*  //Download jq format currency dude
+    $("mtFildset").on("blur",".currency", function(){
+        $(".currency").formatCurrency({
+            region            : 'es-ES',
+            symbol            : '€',
+            positiveFormat    : '%n %s',
+            negativeFormat    : '-%n %s',
+            decimalSymbol     : ',',
+            digitalSymbolGroup: '.',
+            groupDigits       : true
+    
+        });
+    })
+    */
+    
     $("#inputDni").click(function(){
         event.preventDefault();
         let dni      = $("#Dni").val();
