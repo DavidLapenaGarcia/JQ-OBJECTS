@@ -1,6 +1,6 @@
 
 
-$(document).ready(function(){
+$( document ).ready(function() {
     /*  //Download jq format currency dude
     $("mtFildset").on("blur",".currency", function(){
         $(".currency").formatCurrency({
